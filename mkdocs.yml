@@ -1,0 +1,52 @@
+site_name: Chip Design with Rashid
+site_url: https://ChipDesignRashid.github.io/chip-design-website/
+site_author: Rashid
+site_description: Expert curriculum for Digital IC Design, STA, and Physical Design. Learn from an industry veteran with 20+ years of experience.
+
+theme:
+  name: material
+  logo: assets/images/rashid.png
+  favicon: assets/images/rashid.png
+  font:
+    text: IBM Plex Sans
+    code: IBM Plex Mono
+  
+  # --- NEW GREEN THEME ---
+  palette:
+    # Light Mode
+    - scheme: default
+      primary: green
+      accent: green
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Dark Mode
+    - scheme: slate
+      primary: black
+      accent: green
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+  features:
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - navigation.footer
+
+# ---------------------------------------------------------------------
+# NAVIGATION MENU
+# ---------------------------------------------------------------------
+nav:
+  - 'Home': 'index.md'
+  - 'Become Youtube Member': 'https://www.youtube.com/@ChipDesignRashid/join'
+
+# ---------------------------------------------------------------------
+# MARKDOWN EXTENSIONS
+# ---------------------------------------------------------------------
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
