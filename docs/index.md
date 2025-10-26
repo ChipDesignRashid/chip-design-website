@@ -2,27 +2,27 @@
 
 ## About Your Instructor { id="about" }
 
-<div style="display: flex; align-items: flex-start; gap: 20px; margin-top: 20px;">
+<div class="instructor-grid">
   
-  <div style="width: 200px; flex-shrink: 0;">
-    <img src="assets/images/rashid.png" alt="Rashid" style="width: 200px; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+  <div class="instructor-cell-1">
+    <img src="assets/images/rashid.png" alt="Rashid" class="instructor-photo">
     
-    <a href="https://www.youtube.com/@ChipDesignRashid" class="md-button md-button--primary" style="display: block; width: 100%; margin: 10px 0 0 0; box-sizing: border-box;" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.youtube.com/@ChipDesignRashid" class="md-button md-button--primary instructor-button" target="_blank" rel="noopener noreferrer">
       Visit the YouTube Channel
     </a>
-    <a href="https://www.youtube.com/@ChipDesignRashid/join" class="md-button" style="display: block; width: 100%; margin: 10px 0 0 0; box-sizing: border-box;" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.youtube.com/@ChipDesignRashid/join" class="md-button instructor-button" target="_blank" rel="noopener noreferrer">
       Become a Member
     </a>
-    <a href="https://www.linkedin.com/in/rashidco/" class="md-button" style="display: block; width: 100%; margin: 10px 0 0 0; box-sizing: border-box;" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.linkedin.com/in/rashidco/" class="md-button instructor-button" target="_blank" rel="noopener noreferrer">
       LinkedIn Profile
     </a>
   </div>
   
-  <div>
+  <div class="instructor-cell-2">
     <h3>Hello! I'm Rashid Iqbal.</h3>
-    <p>I am an IC Design Engineer and Static Timing Analysis (STA) professional with over two decades of experience in the semiconductor industry, including leadership roles at companies like Intel and Cadence.</p>
+    <p>I am an IC Design Engineer with a specialization in <strong>Physical Design and Static Timing Analysis (STA)</strong>. I have 24+ years of experience in the semiconductor industry, including leadership roles at companies like Intel and Cadence.</p>
     
-    <p>With a <strong>Master's degree</strong> in Electrical Engineering, my career has spanned <strong>Asia, Europe (Sweden, Germany, Ireland), and the USA (Colorado)</strong>. This global experience brings a unique, practical perspective to complex chip design challenges.</p>
+    <p>With a <strong>Master's degree</strong> in Electrical Engineering, my career has spanned <strong>Asia (Pakistan), Europe (Sweden, Germany, Ireland), and the USA (Colorado)</strong>. This global experience brings a unique, practical perspective to complex chip design challenges.</p>
     
     <p>I started this Youtube channel to provide high-quality, practical training on the complex topics of chip design. My mission is to make this knowledge accessible to everyone. This site organizes my 350+ videos into a clear curriculum to help you find exactly what you need.</p>
   </div>
@@ -105,3 +105,48 @@ A modern designer is also a programmer. This track covers the essential "glue" s
 Beyond the technical skills, this track offers practical advice on building your career, preparing for interviews, and understanding the semiconductor industry.
 
 * [Chip Design Career Q&A — Real Questions, Real Answers](https://www.youtube.com/playlist?list=PL0-xus8sJBCTfm51EjsyWwJvPDhkYU0Ds){: target="_blank" rel="noopener noreferrer" }
+
+---
+
+<style>
+  .instructor-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* This is the mobile-first style: 1 column */
+    gap: 25px;
+    margin-top: 20px;
+  }
+
+  /* When the screen is wider than 768px (desktop), switch to 2 columns */
+  @media screen and (min-width: 769px) {
+    .instructor-grid {
+      /* 200px for first col, 1fr (flexible) for second */
+      grid-template-columns: 200px 1fr; 
+      align-items: flex-start; /* Aligns text to the top */
+    }
+  }
+
+  /* --- SHARED STYLES (for all screen sizes) --- */
+  .instructor-photo {
+    width: 100%; /* Will be 100% of its container */
+    max-width: 200px; /* The photo will never get bigger than 200px */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* On desktop, make the photo align left */
+  @media screen and (min-width: 769px) {
+      .instructor-photo {
+        margin-left: 0;
+      }
+  }
+
+  .instructor-button {
+    display: block;
+    width: 100%;
+    margin: 10px 0 0 0;
+    box-sizing: border-box;
+  }
+</style>
