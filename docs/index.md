@@ -24,7 +24,8 @@
     
     <p>With a <strong>Master's degree</strong> in Electrical Engineering, my career has spanned <strong>Asia (Pakistan), Europe (Sweden, Germany, Ireland), and the USA (Colorado)</strong>. This global experience brings a unique, practical perspective to complex chip design challenges.</p>
     
-    <p>I started this Youtube channel to provide high-quality, practical training on the complex topics of chip design. My mission is to make this knowledge accessible to everyone. This site organizes my 350+ videos into a clear curriculum to help you find exactly what you need.</p>
+    <p>I started this Youtube channel to provide high-quality, practical training on the complex topics of Digital IC 
+Design (Architecture to GDS). My mission is to make this knowledge accessible to everyone. This site organizes my 450+ videos into a clear curriculum to help you find exactly what you need.</p>
   </div>
 </div>
 
@@ -36,7 +37,6 @@
     
     * **Continuous Learning:** Get 6-8 new, advanced, members-only videos every month.
     * **Exclusive Library:** Most of my new content is for members, giving you a serious edge.
-    * **Ad-Free Viewing:** Watch all members-only videos without interruptions.
     * **Priority Support:** Members get loyalty badges, so I see and reply to your comments first.
     * **Exclusive Q&A:** Access members-only Q&A posts and career advice.
     * **Industry-Focused:** My teaching style is based on real-world industry experience, not just textbooks.
@@ -47,46 +47,79 @@
 
 ---
 
-## My Complete YouTube Curriculum
+## The Digital IC Design Roadmap: From Architecture to GDSII
 
-My curriculum is structured into four clear tracks. My focus is on **Digital IC Design**, which makes up ~95% of modern large SoCs/Chiplets. (Analog design is a different, specialized track).
+My curriculum is focused on **Digital IC Design**, the backbone of ~95% of modern large SoCs and Chiplets. I believe in teaching the full lifecycle, not just isolated steps. 
+
+The design journey starts with high-level **Architecture**, followed by **Microarchitecture** definition and implementation in high-level languages. From there, we transition into Hardware Description Languages (**SystemVerilog**) and the intensive **Physical Design** cycle—encompassing Synthesis, Place & Route, and critical sign-off stages like **Static Timing Analysis (STA)**, layout verification, and formal verification. Only then is the final GDS file ready for the fabrication plant.
+
+My goal is to demystify every stage of this cycle. By providing simple, practical, and clear explanations based on over 25 years of industry experience, I help you land your ideal job and navigate your career with technical confidence.
+
+---
+### Unlock Your Career Potential
+
+Whether you are preparing for your first interview or aiming for a Technical leadership role at a top-tier firm, this roadmap gives you the technical depth to stand out.
+
+This roadmap is designed to support the professional growth of three specific groups within the semiconductor ecosystem:
+
+*   **University Students (Bachelor's & Master's):** Transition from textbook theory to industry-ready skills. These tracks provide the practical "missing link" required to excel in technical interviews and secure your first role in a high-stakes design environment.
+*   **Early-Career Engineers:** Stop relying on "guesswork" and start solving on-the-job challenges with confidence. By solidifying your core technical knowledge, you can move from performing tasks to mastering the "why" behind complex design decisions.
+*   **Experienced Professionals:** Reclaim your technical depth or pivot into emerging fields. Whether you need to refresh your understanding of **Static Timing Analysis (STA)** or master cutting-edge methodologies like **3DIC packaging** and **RISC-V microarchitecture**, these resources provide the advanced insight your career demands.
 
 ---
 
-### Track 1: Fundamentals of Digital IC Design
+## Track 1: Front-End Design (Architecture, Micro-Arch & RTL)
 
-This track takes you from fundamentals to industry-ready, perfect for students or anyone new to chip design. It covers the core university-level courses, taking you from basic logic gates all the way to a high-level understanding of a complete design flow.
+This track focuses on the logical and structural foundation of the silicon lifecycle. We explore the high-level **Architecture** definition, move into detailed **Microarchitecture** specifications, and translate these concepts into Hardware Description Languages (HDL) like **SystemVerilog**.
+
+Mastering the Front-End is about more than just writing code; it is about designing for efficiency, scalability, and functional correctness. Whether you are building a custom **RISC-V** core or complex SoC logic, these sessions provide the rigorous technical training needed to excel in RTL design and verification. These insights are backed by over 25 years of industry experience across global design centers.
+
+**Here are the playlists, titles, and links (click on each):**
 
 * [Digital Design Basics - Combinational Logic Made Easy (27 Videos)](https://www.youtube.com/playlist?list=PL0-xus8sJBCS-pGojeK0TBn1zVGJ6jJur){: target="_blank" rel="noopener noreferrer" }
+
 * [Digital Design Basics - Sequential Logic Explained (8 Videos)](https://www.youtube.com/playlist?list=PL0-xus8sJBCSJZTEcGy6j6F5EFWLPjsgo){: target="_blank" rel="noopener noreferrer" }
-* [CMOS Circuits Made Easy: From Transistor to Logic Gates (28 Videos)](https://www.youtube.com/playlist?list=PL0-xus8sJBCSm5N5AnivBiIVbGyrDEIIK){: target="_blank" rel="noopener noreferrer" }
-* [RISC-V Architecture Explained - CPU and Peripherals (~40 videos - In progress)](https://www.youtube.com/playlist?list=PL0-xus8sJBCRzZtmL_fLWaohRKuc4j5aH){: target="_blank" rel="noopener noreferrer" }
-* [Learn Physical Design and Timing Overview - Complete Methodology (~40 Videos)](https://www.youtube.com/playlist?list=PL0-xus8sJBCTmG_gv4SHc5_3ofdjEZDDo){: target="_blank" rel="noopener noreferrer" }
 
-**Future Roadmap (Under Development):**
+* [RISC-V Architecture Explained - CPU and Peripherals (~40 videos)](https://www.youtube.com/playlist?list=PL0-xus8sJBCRzZtmL_fLWaohRKuc4j5aH){: target="_blank" rel="noopener noreferrer" }
 
-* [Designing a Microarchitecture — Turning Architecture into Hardware (Coming November 2025)]
-* [SystemVerilog Tutorials — From Basics to Real Design (Coming December 2025)]
-* [Implementing a RISC-V Microarchitecture in SystemVerilog (Coming January-Feb 2026)]
-* [CPU and SoC Verification with SystemVerilog & UVM (Coming March-April 2026)]
-* [From RTL to GDS: RISC-V Physical Design with Open-Source Tools (Coming May-June 2026)]
+* [Master RISC-V Microarchitecture (~23 videos)](https://www.youtube.com/playlist?list=PL0-xus8sJBCTkqRRH44gbHOqBN57cPNzG){: target="_blank" rel="noopener noreferrer" }
 
-*(Note: Future content titles and schedules are subject to change.)*
+* [Build a RISC-V CPU in Python: From Microarchitecture to Verification (~15 videos)](https://www.youtube.com/playlist?list=PL0-xus8sJBCR3d_KcveIFzQBZnHzeOMHi){: target="_blank" rel="noopener noreferrer" }
+
+* [RISCV CPU Design in System Verilog (In progress)](https://www.youtube.com/playlist?list=PL0-xus8sJBCSOD1WDsne0j958cmttsQil){: target="_blank" rel="noopener noreferrer" }
+
 
 ---
 
-### Track 2: Physical Design & STA Deep Dives
+## Track 2: Physical Design & Signoff (Implementation, STA, & Verification)
 
-This track is my core area of specialization, based on over 20 years of industry experience. Here, we go deep into the advanced, practical topics of Static Timing Analysis (STA) and Physical Design that you'll use every day on the job.
+This track bridges the gap between logical design and physical silicon, focusing on the rigorous "Back-End" cycle required for modern tape-outs. We begin with a deep dive into **CMOS foundations** to understand transistor-level logic, then progress through the entire implementation methodology: **Synthesis, Placement, Clock Tree Synthesis (CTS), and Routing**.
+
+A significant portion of this track is dedicated to **Static Timing Analysis (STA)** and signoff verification. You will learn how to navigate complex timing constraints, perform layout verification, and ensure a design is fully optimized before it is sent to the fabrication plant. These lessons leverage over 25 years of industry experience to help you move beyond guesswork and master the technical precision required by world-class semiconductor firms like Intel and Cadence.
+
+**Here are the playlists, titles, and links (click on each):**
+
+* [CMOS Circuits Made Easy: From Transistor to Logic Gates (28 Videos)](https://www.youtube.com/playlist?list=PL0-xus8sJBCSm5N5AnivBiIVbGyrDEIIK){: target="_blank" rel="noopener noreferrer" }
+
+* [Learn Physical Design and Timing Overview - Complete Methodology (~40 Videos)](https://www.youtube.com/playlist?list=PL0-xus8sJBCTmG_gv4SHc5_3ofdjEZDDo){: target="_blank" rel="noopener noreferrer" }
 
 * [Physical Design Flow Explained - Synthesis to Place & Route](https://www.youtube.com/playlist?list=PL0-xus8sJBCQRHOWa535_X2GyrDlZr9We){: target="_blank" rel="noopener noreferrer" }
+
 * [Full Chip Timing/STA closure - Timing Challenges on Large Dies](https://www.youtube.com/playlist?list=PL0-xus8sJBCQVQw3pQVAJ6y_gzLQ6TAoO){: target="_blank" rel="noopener noreferrer" }
+
 * [Static Timing Analysis (Block Level Flow & Methodology)](https://www.youtube.com/playlist?list=PL0-xus8sJBCTw1aDsx3RXQv3D8MfYJ602){: target="_blank" rel="noopener noreferrer" }
+
 * [Static Timing Analysis Q&As - Common Pitfalls and Insights](https://www.youtube.com/playlist?list=PL0-xus8sJBCTIUAdD1-e7LPTVbeYz9QS5){: target="_blank" rel="noopener noreferrer" }
+
 * [Latch Timing Demystified! Real Scenarios Where Latches Shine](https://www.youtube.com/playlist?list=PL0-xus8sJBCTQ-sJ98q38oNkYwV2rhU48){: target="_blank" rel="noopener noreferrer" }
-* [Timing Constraints Made Easy: Inputs, Outputs, and Reg2Reg Paths](https://www.youtube.com/playlist?list=PL0-xus8sJBCR2Kwzj7OnRL_rABCXQcF9a){: target="_blank" rel="noopener noreferrer" }
+
+* [Master Timing Constraints: Basics to Advanced](https://www.youtube.com/playlist?list=PL0-xus8sJBCR2Kwzj7OnRL_rABCXQcF9a){: target="_blank" rel="noopener noreferrer" }
+
 * [Global vs Local Clock Trees — A Practical CTS Guide](https://www.youtube.com/playlist?list=PL0-xus8sJBCQlSBiYaanx1QG4iYY7J6wB){: target="_blank" rel="noopener noreferrer" }
+
 * [The Incredible Shrinking Transistor: 350nm to Cutting Edge](https://www.youtube.com/playlist?list=PL0-xus8sJBCQ9kmdzow_PX_FJ0Ca1HTAM){: target="_blank" rel="noopener noreferrer" }
+
+* [Statistical Timing Analysis (SSTA)](https://www.youtube.com/playlist?list=PL0-xus8sJBCQC5irrh6KfiagR2HNbvU-O){: target="_blank" rel="noopener noreferrer" }
 
 ---
 
